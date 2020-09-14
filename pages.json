@@ -1,0 +1,91 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/main/index/index",
+			"style": {
+				"navigationStyle":"custom",
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/main/book/book",
+            "style" : {
+				"navigationBarTitleText":"书库"
+			}
+        }
+        ,{
+            "path" : "pages/main/bookCase/bookCase",
+            "style" : {
+				"navigationBarTitleText":"书架"
+			}
+        }
+        ,{
+            "path" : "pages/main/mine/mine",
+            "style" : {
+				"navigationBarTitleText":"我的"
+			}
+        }
+        ,{
+            "path" : "pages/post/post",
+            "style" : {
+				"navigationBarTitleText":"国学资讯"
+			}
+        }
+        ,{
+            "path" : "pages/bookRecommend/bookRecommend",
+            "style" : {
+				"navigationBarTitleText":"书籍推荐"
+			}
+        }
+        ,{
+            "path" : "pages/authorShip/authorShip",
+            "style" : {
+				"navigationBarTitleText":"作者专区"
+			}
+        }
+        ,{
+            "path" : "pages/postDetail/postDetail",
+            "style" : {
+			}
+        }
+        ,{
+            "path" : "pages/bookDetail/bookDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/bookReader/bookReader",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "劝学网客户端",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"backgroundColor":"#FFFFFF",
+		"selectedColor":"#FF6E40",
+		"list": [
+			{
+				"text":"首页",
+				"pagePath":"pages/main/index/index"
+			},
+			{
+				"text":"书库",
+				"pagePath":"pages/main/book/book"
+			},
+			{
+				"text":"书架",
+				"pagePath":"pages/main/bookCase/bookCase"
+			}
+			// {
+			// 	"text":"我的",
+			// 	"pagePath":"pages/main/mine/mine"
+			// }
+		]
+	},
+	"easycom": {
+		"autoscan": true
+	}
+}

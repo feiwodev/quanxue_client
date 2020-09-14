@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "home-slide": "/components/homeSlide/homeSlide"
+  }
+}

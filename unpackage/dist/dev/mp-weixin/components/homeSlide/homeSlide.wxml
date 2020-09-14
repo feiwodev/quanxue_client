@@ -1,0 +1,1 @@
+<view><banner vue-id="62477548-1" banner-list="{{slides}}" swiper-config="{{swiperConfig}}" data-event-opts="{{[['^itemClick',[['slideItemClick']]]]}}" bind:itemClick="__e" bind:__l="__l"></banner></view>

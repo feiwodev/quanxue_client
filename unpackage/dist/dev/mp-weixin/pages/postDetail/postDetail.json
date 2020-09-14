@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "luch-audio": "/components/luch-audio/luch-audio",
+    "html-parser": "/components/htmlParser/htmlParser"
+  }
+}

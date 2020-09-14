@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "国学资讯",
+  "usingComponents": {
+    "top-tab": "/components/wuc-tab/wuc-tab"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "html-parser": "/components/htmlParser/htmlParser",
+    "book-drawer": "/components/bookDrawer/bookDrawer"
+  }
+}
